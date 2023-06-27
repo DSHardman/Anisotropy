@@ -24,15 +24,15 @@ tri = mesh_obj['element']
 # anomaly = [{'x': 0.5, 'y': 0.5, 'd': 0.1, 'perm': 10.0}]
 # mesh_new = mesh.set_perm(mesh_obj, anomaly=anomaly, background=1.0)
 
-# # Tight concentric circles
-# mesh_new = mesh.set_perm(mesh_obj, anomaly=[{'x': 0, 'y': 0, 'd': 0.9, 'perm': 10.0}])
-# mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.8, 'perm': 1.0}])
-# mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.7, 'perm': 10.0}])
-# mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.6, 'perm': 1.0}])
-# mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.5, 'perm': 10.0}])
-# mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.4, 'perm': 1.0}])
-# mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.3, 'perm': 10.0}])
-# mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.2, 'perm': 1.0}])
+# Tight concentric circles
+mesh_new = mesh.set_perm(mesh_obj, anomaly=[{'x': 0, 'y': 0, 'd': 0.9, 'perm': 10.0}])
+mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.8, 'perm': 1.0}])
+mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.7, 'perm': 10.0}])
+mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.6, 'perm': 1.0}])
+mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.5, 'perm': 10.0}])
+mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.4, 'perm': 1.0}])
+mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.3, 'perm': 10.0}])
+mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': 0, 'y': 0, 'd': 0.2, 'perm': 1.0}])
 
 # # Loose concentric circles
 # mesh_new = mesh.set_perm(mesh_obj, anomaly=[{'x': 0, 'y': 0, 'd': 0.9, 'perm': 10.0}])
@@ -49,11 +49,11 @@ tri = mesh_obj['element']
 #     mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': i/(100*np.sqrt(2)), 'y': i/(100*np.sqrt(2)), 'd': 0.05, 'perm': 10.0}])
 #     mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': i/(100 * np.sqrt(2)), 'y': -i/(100 * np.sqrt(2)), 'd': 0.05, 'perm': 10.0}])
 
-# Parallel
-mesh_new = mesh_obj
-for i in range(-100, 100):
-    for j in range(-3, 3):
-        mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': i/100, 'y': j/3, 'd': 0.08, 'perm': 10.0}])
+# # Parallel
+# mesh_new = mesh_obj
+# for i in range(-100, 100):
+#     for j in range(-3, 3):
+#         mesh_new = mesh.set_perm(mesh_new, anomaly=[{'x': i/100, 'y': j/3, 'd': 0.08, 'perm': 10.0}])
 
 # draw
 delta_perm = np.real(mesh_new['perm'] - mesh_obj['perm'])
