@@ -1,9 +1,10 @@
 load("TouchNumber.mat");
 
 my_colors();
+markers = ["o", "+", "*", "x", "square"];
 
 for i = 1:5
-    scatter([100 200 500 750 1000 1500 2000], 1000*allaverages(:, i), 30, colors(i,:), 'filled');
+    scatter([100 200 500 750 1000 1500 2000], 1000*allaverages(:, i), 30, colors(i,:), markers(i));
     hold on
 end
 

@@ -25,12 +25,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      showborder="false"
-     inkscape:zoom="2"
-     inkscape:cx="582"
-     inkscape:cy="216.25"
-     inkscape:window-width="1920"
-     inkscape:window-height="1121"
-     inkscape:window-x="-9"
+     inkscape:zoom="1"
+     inkscape:cx="630"
+     inkscape:cy="333.5"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     inkscape:window-x="2391"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer5" />
@@ -986,18 +986,18 @@
          id="tspan8659-3-0-9-7-1-0-2-2-9"
          style="fill:#000000;fill-opacity:1;stroke-width:0.0834611"
          x="14.430291"
-         y="56.47472">b</tspan></text>
+         y="56.47472">B</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.33844px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0834611"
        x="-64.215935"
-       y="51.129517"
+       y="51.790974"
        id="text8661-4-9-8-4-5-3-5-05-9-2"><tspan
          sodipodi:role="line"
          id="tspan8659-3-0-9-7-1-0-2-2-9-2"
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.0834611"
          x="-64.215935"
-         y="51.129517">a</tspan></text>
+         y="51.790974">A</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.81666px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0704167"
@@ -3025,7 +3025,7 @@
          id="tspan8659-3-0-9-7-1-0-2-2-9-8"
          style="fill:#000000;fill-opacity:1;stroke-width:0.0834611"
          x="99.246918"
-         y="56.47472">c</tspan></text>
+         y="56.47472">C</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.33844px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0834611"
@@ -3036,6 +3036,6 @@
          id="tspan8659-3-0-9-7-1-0-2-2-9-1"
          style="fill:#000000;fill-opacity:1;stroke-width:0.0834611"
          x="99.246918"
-         y="93.571213">d</tspan></text>
+         y="93.571213">D</tspan></text>
   </g>
 </svg>
