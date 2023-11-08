@@ -14,9 +14,9 @@ function [trainmeans, valmeans, testmeans, errors, pred, target, net] = sensorTr
     inp = normalize(inp);
 
     %% Standardize outputs between 0 and 1
-    out(:,1) = out(:,1)*10;
+    out(:,1) = out(:,1);%*10;
     out(:,2) = out(:,2);
-    out(:,3) = out(:,3)*10;
+    %out(:,3) = out(:,3);%*10;
     
     %% Extract training, validation, and test data
     %assert(sum(ratio)==1);
